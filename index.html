@@ -18,19 +18,25 @@
     <header>
       <!-- background color dark grey -->
       <nav class="nav-container">
-        <div class="home">
+        <div class="home-icon">
           <!-- search how to use svg  -->
-          <a href="#"
-            ><i class="fa-solid fa-house" style="color: #ffffff"></i
-          ></a>
+          <a class="home-link" hr="#"></a>
         </div>
-        <div class="search-Bar">search gmail-icon</div>
-        <div class="dropdown">
-          <button class="link">
-            <div class="dropdown-menu">
-              <div class="menu">menu</div>
-            </div>
-          </button>
+
+        <div class="search-container">
+          <input class="search-bar" type="text" placeholder="Search..." />
+        </div>
+        <!-- dropdown menu -->
+        <div class="dropdown" data-dropdown>
+          <button class="link" data-dropdown-button>menu</button>
+          <div class="dropdown-menu">
+            <ul class="navList">
+              <!-- <a href="#">Browse Product</a>
+              <a href="#">Resin Product</a>
+              <a href="#">Wood product</a>
+              <a href="#">Custom product</a> -->
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
