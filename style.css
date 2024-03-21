@@ -14,6 +14,7 @@ header {
   background-color: #434141;
 }
 
+/* ==========================navigation=========================== */
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -25,11 +26,7 @@ header {
   width: 100%;
   height: 100%;
 }
-
-.home {
-  color: white;
-}
-
+/*========================== search input ========================*/
 .seach-container {
   background-color: white;
 }
@@ -38,13 +35,13 @@ header {
   width: 350px;
   height: 35px;
   padding-left: 35px;
-  background-image: url(/icon/5402443_search_find_magnifier_magnifying_magnifying\ glass_icon.svg);
+  background-image: url(icon/5402443_search_find_magnifier_magnifying_magnifying\ glass_icon.svg);
   background-repeat: no-repeat;
   border: none;
 }
-
+/* ======================= home section =========================== */
 .home-icon {
-  background-image: url(/icon/house-solid.svg);
+  background-image: url(icon/house-solid.svg);
   background-repeat: no-repeat;
   background-position: in;
   position: relative;
@@ -52,4 +49,63 @@ header {
   top: 2.4px;
   height: 32px;
   width: 32px;
+}
+
+/*========================= drop down menu =======================*/
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+}
+
+.linkItem {
+  text-decoration: none;
+  color: white;
+}
+
+.linkItem:hover {
+  color: #146c7f;
+}
+
+.link {
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropdown.active > .link,
+.link:hover {
+  color: #146c7f;
+}
+
+/* dropdown */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  width: 120px;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.25rem);
+  background: #434141;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-10px);
+  transition: opacity 150rem ease-in-out transform 150rem ease-in-out;
+}
+
+.dropdown.active > .link + .dropdown-menu {
+  opacity: 1;
+  transform: translate(0);
+  pointer-events: auto;
 }
