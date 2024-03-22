@@ -55,13 +55,19 @@ header {
 
 .navList {
   display: flex;
-  flex-direction: column;
-  padding: 4%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4% 4% 4% 7%;
+  width: 290px;
+  height: 150px;
+  gap: 0.5rem;
 }
 
 .linkItem {
   text-decoration: none;
   color: white;
+  width: 125px;
+  padding: 5px;
 }
 
 .linkItem:hover {
@@ -90,12 +96,12 @@ header {
 }
 
 .dropdown-menu {
-  width: 120px;
+  width: auto;
   position: absolute;
-  right: 0;
+  right: -40px;
   top: calc(100% + 0.25rem);
-  background: #434141;
-  padding: 0.75rem;
+  background: #363535f1;
+  /* padding: 0.75rem; */
   border-radius: 0.25rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   opacity: 0;
