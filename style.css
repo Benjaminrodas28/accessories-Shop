@@ -11,6 +11,9 @@ header {
   background-color: #434141;
 }
 
+body {
+}
+
 /* ==========================navigation=========================== */
 .nav-container {
   display: flex;
@@ -18,7 +21,7 @@ header {
   justify-content: space-between;
   /* background-color: red; */
   align-items: center;
-  padding: 0 50px;
+  padding: 0 10% 0 10%;
   color: white;
   width: 100%;
   height: 100%;
@@ -124,3 +127,126 @@ header {
   transform: translate(0);
   pointer-events: auto;
 }
+
+/* ======================= Hero Section ======================== */
+
+/* ======================= attachment ========================== */
+
+.hero-image {
+  background-image: url(website-image/product-background-image/bg\ image.jpg);
+  /* filter: brightness(90%); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+
+/* need to add shadow to the background image */
+
+.box-shadow {
+  background-color: #1b191925;
+  width: auto;
+
+  height: 250px;
+  position: relative;
+  left: 5rem;
+}
+
+/* ======================= Hero Title =========================== */
+
+.hero-title {
+  color: white;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  text-decoration: underline 4px;
+  text-shadow: 0px 0px 30px #0b0b0b;
+}
+
+/* ======================== main section ========================= */
+
+.home-page {
+  background-color: #e7e7e7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+  padding: 30px;
+  width: 100%;
+  height: 38%;
+}
+
+/* ======================== main content ======================== */
+
+.product-item {
+  width: 290px;
+  height: 160.5px;
+  background-color: whitesmoke;
+  margin-bottom: 30px;
+  /* font-size: 15px; */
+}
+
+main > div:nth-last-of-type(-n + 2) {
+  margin-bottom: 0;
+}
+
+.product-info {
+  justify-self: center;
+  font-size: 17px;
+  font-weight: 300;
+  width: 100%;
+  color: #146c7f;
+}
+
+.item {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+hr {
+  position: relative;
+  bottom: 0.5em;
+  color: #146c7f;
+}
+
+.description {
+  color: #146c7f;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sold-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sold {
+  align-self: flex-end;
+}
+
+.dots {
+  background-image: url(/icon/three_dots_icon.svg);
+  position: relative;
+  top: 5px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.pd-image-1 {
+  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/fruit-ring-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  height: 100%;
+}
+
+/* .price{
+  margin-top: 40px;
+} */
