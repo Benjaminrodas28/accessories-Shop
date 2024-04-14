@@ -173,7 +173,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-self: center;
-  padding: 30px;
+  padding: 30px 10% 30px 10%;
   width: 100%;
   height: 38%;
 }
@@ -181,7 +181,7 @@ body {
 /* ======================== main content ======================== */
 
 .product-item {
-  width: 290px;
+  width: 250px;
   height: 160.5px;
   background-color: whitesmoke;
   margin-bottom: 30px;
@@ -211,14 +211,6 @@ hr {
   color: #146c7f;
 }
 
-.description {
-  color: #146c7f;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .sold-count {
   display: flex;
   flex-direction: row;
@@ -228,6 +220,11 @@ hr {
 
 .sold {
   align-self: flex-end;
+  font-size: 17px;
+}
+
+.price {
+  font-size: 17px;
 }
 
 .dots {
@@ -238,11 +235,22 @@ hr {
   height: 1.8em;
 }
 
+.description {
+  color: #146c7f;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 66%;
+}
+
+/* change the width/height of the image in product */
+
 .product {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 60%;
+  width: 35%;
   height: 100%;
 }
 
@@ -256,13 +264,19 @@ hr {
   background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/fruit-ring-3.jpg);
 }
 .image-4 {
-  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/resin-ring-1.jpg);
+  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-13.jpg);
 }
 .image-5 {
-  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/resin-ring-10.jpg);
+  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-10.jpg);
 }
 .image-6 {
-  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/resin-ring-7.jpg);
+  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-5.jpg);
+}
+.image-7 {
+  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-2.jpg);
+}
+.image-8 {
+  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-8.jpg);
 }
 
 /* .price{
