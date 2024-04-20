@@ -293,11 +293,20 @@ hr {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+  align-items: center;
 }
 
 .footer-info {
   max-width: 50%;
   min-width: 60%;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  font-weight: 500px;
+  font-family: sans-serif;
 }
 
 .contact-info-holder {
@@ -314,22 +323,19 @@ hr {
 .social-media-container {
   width: 100%;
   height: auto;
-  /* background-color: red; */
+  flex-direction: row;
+  justify-content: flex-end;
+  display: flex;
 }
 
 .social-media-icon {
-  width: 15%;
+  width: 100px;
   height: 15%;
+  padding-left: 35px;
 }
 
-.social-icon {
-  flex-direction: row;
-  display: flex;
-  /* justify-items: flex-end; */
-  align-items: center;
-  height: 55px;
-
-  /* background-color: blue; */
+.media-icon {
+  padding-left: 5px;
 }
 
 .linkdin-icon {
