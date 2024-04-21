@@ -253,6 +253,9 @@ hr {
   width: 35%;
   height: 100%;
 }
+.product-item:hover {
+  cursor: pointer;
+}
 
 .image-1 {
   background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/fruit-ring-4.jpg);
@@ -347,6 +350,11 @@ hr {
   background-position: center;
 }
 
+.linkdin-icon:hover {
+  cursor: pointer;
+  background-image: url(icon/icon-finder-blue_linkedin_icon.svg);
+}
+
 .facebook-icon {
   width: 29px;
   height: 28px;
@@ -354,6 +362,10 @@ hr {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+.facebook-icon:hover {
+  cursor: pointer;
+  background-image: url(icon/icon_finder_blue_facebook_facebook_logo_icon.svg);
 }
 
 .instagram-icon {
@@ -365,13 +377,27 @@ hr {
   background-position: center;
 }
 
+.instagram-icon:hover {
+  cursor: pointer;
+  background-image: url(icon/icon_finder_coloured_instagram_brand_logo_social_media_icon.svg);
+}
+
 .contact-devider {
   width: 40%;
   align-items: center;
 }
+
 .contact-info {
   padding-left: 10px;
 }
+
+.contact-info,
+.privacy-policy,
+.terms-conditions,
+.gmail-icon:hover {
+  cursor: pointer;
+}
+
 .gmail-icon /*envelop */ {
   width: 19px;
   background-image: url(/icon/envelope-solid.svg);
@@ -380,6 +406,7 @@ hr {
   background-size: contain;
   background-position: center;
 }
+
 .terms-policy {
   width: 60%;
   align-items: center;
