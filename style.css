@@ -63,17 +63,17 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 4% 4% 4% 7%;
-  width: 290px;
-  height: 150px;
+  padding: 10%;
+  width: auto;
+  height: auto;
   gap: 0.5rem;
 }
 
 .linkItem {
   text-decoration: none;
   color: white;
-  width: 125px;
-  padding: 5px;
+  width: 135px;
+  margin: 5px;
 }
 
 .linkItem:hover {
@@ -108,8 +108,8 @@ header {
 .dropdown-menu {
   width: auto;
   position: absolute;
-  right: -40px;
-  top: calc(100% + 0.25rem);
+  right: -55px;
+  top: calc(100% + 1.25rem);
   background: #363535f1;
   border-radius: 0.25rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -123,6 +123,48 @@ header {
   opacity: 1;
   transform: translate(0);
   pointer-events: auto;
+}
+
+/* ======================= product menu ======================== */
+
+.product-menu {
+  width: auto;
+  height: auto;
+  display: flex;
+  background-color: #e7e7e7;
+  padding: 0px 7.5%;
+}
+
+.product-menu-holder {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* background-color: red; */
+}
+
+.product-menu-link {
+  list-style-type: none;
+  text-decoration: none;
+  align-content: center;
+  color: #146c7f;
+  min-width: 100px;
+  height: 50px;
+  font-weight: 600;
+  padding: 0 3%;
+  /* margin-right: auto; */
+}
+
+.product-menu-link:hover {
+  cursor: pointer;
+  background-color: #146c7f;
+  color: #e7e7e7;
+}
+
+.product-menu-link:nth-child(-n + 4) {
+  margin-right: 5%;
+  /* background-color: red; */
 }
 
 /* ======================= Hero Section ======================== */
