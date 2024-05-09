@@ -43,6 +43,7 @@ header {
 }
 /* ======================= home section =========================== */
 .home-icon {
+  /* display: block; */
   background-image: url(icon/house-solid.svg);
   background-repeat: no-repeat;
   background-position: in;
@@ -55,6 +56,12 @@ header {
 
 .home-icon:hover {
   background-image: url(icon/blue-house-solid.svg);
+}
+
+.home-link {
+  display: block;
+  height: 32px;
+  width: 32px;
 }
 
 /*========================= drop down menu =======================*/
