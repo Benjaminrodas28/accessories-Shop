@@ -192,15 +192,6 @@ header {
 
 /* need to add shadow to the background image */
 
-.box-shadow {
-  background-color: #1b191925;
-  width: auto;
-
-  height: 250px;
-  position: relative;
-  left: 5rem;
-}
-
 /* ======================= Hero Title =========================== */
 
 .hero-title {
