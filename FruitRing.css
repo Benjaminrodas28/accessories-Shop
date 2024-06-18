@@ -14,10 +14,6 @@
   width: 25%;
 }
 
-.product-menu-link:nth-child(-n + 4) {
-  margin-right: 0%;
-}
-
 .product-menu {
   height: 50%;
   width: 100%;
@@ -36,6 +32,7 @@
 .product-link {
   display: flex;
   padding: 0;
+  margin-right: 0;
   justify-content: center;
   align-items: center;
 }
