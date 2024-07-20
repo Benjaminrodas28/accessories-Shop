@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.Browse-page {
+  background-image: url(/website-image/product-background-image/bg\ image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.current-tab {
+  align-content: center;
+  width: 150px;
+}
+
+.product-menu {
+  height: 50%;
+  width: 100%;
+  align-items: center;
+}
+
+.product-menu-holder {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* ------- links ---------- */
+
+.product-link {
+  display: flex;
+  padding: 0;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.live-tab {
+  width: 120px;
+}
+
+.links {
+  width: 150px;
+  display: flex;
+}
+/* ---------- product ------------ */
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 38%;
+  padding: 0px;
+}
+
+.item {
+  box-shadow: 0px 0px 30px #0b0b0b;
+  display: flex;
+  margin: 5% 5%;
+  justify-content: center;
+}
+
+/* --------------- product image --------------- */
+.BP-image-1 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/RingAccessories6.jpg);
+}
+.BP-image-2 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/OtherProduct4.jpg);
+}
+.BP-image-3 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/OtherProduct2.jpg);
+}
+.BP-image-4 {
+  background-image: url(/website-image/Resin-Ring&Other/bracelet/bracelet-accessories8.jpg);
+}
+.BP-image-5 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/RingAccessories3.jpg);
+}
+.BP-image-6 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/RingAccessories5.jpg);
+}
+.BP-image-7 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/OtherProduct1.jpg);
+}
+.BP-image-8 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/RingAccessories7.jpg);
+}
+.BP-image-9 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/RingAccessories9.jpg);
+}
+.BP-image-10 {
+  background-image: url(/website-image/Resin-Ring&Other/bracelet/bracelet-accessories2.jpg);
+}
+.BP-image-11 {
+  background-image: url(/website-image/Resin-Ring&Other/bracelet/bracelet-accessories4.jpg);
+}
+.BP-image-12 {
+  background-image: url(/website-image/Resin-Ring&Other/OtherProduct/OtherProduct3.jpg);
+}
