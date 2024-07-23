@@ -1,0 +1,15 @@
+.home-icon {
+  display: block;
+  background-image: url(icon/blue-house-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  top: 2.4px;
+  height: 32px;
+  width: 32px;
+}
+
+.home-icon:hover {
+  background-image: url(icon/house-solid.svg);
+}
