@@ -251,7 +251,7 @@ hr {
 }
 
 .dots {
-  background-image: url(/icon/three_dots_icon.svg);
+  background-image: url(icon/three_dots_icon.svg);
   top: 5px;
   width: 1.8em;
   height: 1.8em;
@@ -278,28 +278,28 @@ hr {
 }
 
 .image-1 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-ring/fruit-ring-8.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-ring/fruit-ring-8.jpg);
 }
 .image-2 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-ring/fruit-ring-7.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-ring/fruit-ring-7.jpg);
 }
 .image-3 {
-  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/resin-ring-10.jpg);
+  background-image: url(website-image/Resin-Ring&Other/flower-resin-ring/resin-ring-10.jpg);
 }
 .image-4 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-13.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-13.jpg);
 }
 .image-5 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-10.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-10.jpg);
 }
 .image-6 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-5.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-5.jpg);
 }
 .image-7 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-2.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-2.jpg);
 }
 .image-8 {
-  background-image: url(/website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-8.jpg);
+  background-image: url(website-image/Resin-Ring&Other/fruit-and-smile-face-ring/resin-smile-ring-8.jpg);
 }
 
 /* ======================= footer section ======================  */
@@ -363,7 +363,7 @@ hr {
 .linkdin-icon {
   width: 29px;
   height: 28px;
-  background-image: url(/icon/white-linkedin_network_social_network_linkedin_logo_icon.svg);
+  background-image: url(icon/white-linkedin_network_social_network_linkedin_logo_icon.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -377,7 +377,7 @@ hr {
 .facebook-icon {
   width: 29px;
   height: 28px;
-  background-image: url(/icon/fb_facebook_facebook_logo_icon.svg);
+  background-image: url(icon/fb_facebook_facebook_logo_icon.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -390,7 +390,7 @@ hr {
 .instagram-icon {
   width: 29px;
   height: 28px;
-  background-image: url(/icon/1instagram_social_media_icon.svg);
+  background-image: url(icon/1instagram_social_media_icon.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -419,7 +419,7 @@ hr {
 
 .gmail-icon /*envelop */ {
   width: 19px;
-  background-image: url(/icon/envelope-solid.svg);
+  background-image: url(icon/envelope-solid.svg);
   height: 28px;
   background-repeat: no-repeat;
   background-size: contain;
