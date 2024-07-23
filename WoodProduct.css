@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.Browse-page {
+  background-image: url(/website-image/product-background-image/bg\ image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.current-tab {
+  align-content: center;
+  width: 150px;
+}
+
+.product-menu {
+  height: 50%;
+  width: 100%;
+  align-items: center;
+}
+
+.product-menu-holder {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* ---------- product ------------ */
+.wood-link {
+  background-color: #146c7f;
+  color: white;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 38%;
+  padding: 0px;
+}
+
+.item {
+  box-shadow: 0px 0px 30px #0b0b0b;
+  display: flex;
+  margin: 5% 5%;
+  justify-content: center;
+}
+
+.BP-image-1 {
+  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/WoodResingRing3.jpg);
+}
+.BP-image-2 {
+  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/WoodResinRing4.jpg);
+}
+.BP-image-3 {
+  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/WoodResinRing5.jpg);
+}
+.BP-image-4 {
+  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/WoodResinRing9.jpg);
+}
+.BP-image-5 {
+  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/WoodResinRring8.jpg);
+}
+.BP-image-6 {
+  background-image: url(/website-image/Resin-Ring&Other/flower-resin-ring/WoodResinRing1.jpg);
+}

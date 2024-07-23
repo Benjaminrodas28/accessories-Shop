@@ -42,10 +42,10 @@ header {
 }
 /* ======================= home section =========================== */
 .home-icon {
-  /* display: block; */
+  display: block;
   background-image: url(icon/house-solid.svg);
   background-repeat: no-repeat;
-  background-position: in;
+  background-position: center;
   position: relative;
   cursor: pointer;
   top: 2.4px;
@@ -62,7 +62,6 @@ header {
   height: 32px;
   width: 32px;
 }
-
 /*========================= drop down menu =======================*/
 
 .navList {
@@ -114,7 +113,7 @@ header {
 .dropdown-menu {
   width: auto;
   position: absolute;
-  right: -55px;
+  right: -50px;
   top: calc(100% + 1.25rem);
   background: #363535f1;
   border-radius: 0.25rem;
@@ -122,13 +121,12 @@ header {
   opacity: 0;
   pointer-events: none;
   transform: translate(-10px);
-  transition: opacity 150rem ease-in-out transform 150rem ease-in-out;
 }
 
 .dropdown.active > .link + .dropdown-menu {
   opacity: 1;
   transform: translate(0);
-  pointer-events: auto;
+  pointer-events: all;
 }
 
 /* ======================= product menu ======================== */
@@ -232,7 +230,6 @@ main > div:nth-last-of-type(-n + 2) {
 }
 
 hr {
-  position: relative;
   bottom: 0.5em;
   color: #146c7f;
 }
@@ -255,7 +252,6 @@ hr {
 
 .dots {
   background-image: url(/icon/three_dots_icon.svg);
-  position: relative;
   top: 5px;
   width: 1.8em;
   height: 1.8em;
@@ -269,8 +265,6 @@ hr {
   justify-content: space-between;
   width: 66%;
 }
-
-/* change the width/height of the image in product */
 
 .product {
   background-size: cover;
@@ -334,7 +328,6 @@ hr {
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 1px;
-  font-weight: 500px;
   font-family: sans-serif;
 }
 

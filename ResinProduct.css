@@ -27,31 +27,11 @@
   width: 100%;
 }
 
-/* ------- links ---------- */
-
-.product-link {
-  display: flex;
-  padding: 0;
-  margin-right: 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.link-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
-}
-
-.live-tab {
-  width: 120px;
-}
-
-.links {
-  width: 150px;
-  display: flex;
-}
 /* ---------- product ------------ */
+.resin-link {
+  background-color: #146c7f;
+  color: white;
+}
 
 .product-container {
   display: flex;
